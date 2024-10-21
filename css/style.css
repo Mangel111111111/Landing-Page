@@ -1,18 +1,24 @@
-body {
-    
+body{
+    background-color: #4b80c1;
 }
-
 header {
     text-align: center;
     background-color:rgb(123, 177, 209);
     font-family: 'Courier New', Courier, monospace;
+    top: 0;
+    width: 100%;
+    
 }
 
 footer { 
-    background-color: #3a4e66;
+    background-color: #326382;
     color: white;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    
 }
 
 th, td {
