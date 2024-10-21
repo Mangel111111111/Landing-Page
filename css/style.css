@@ -1,5 +1,40 @@
-header{
+body {
+    
+}
+
+header {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     background-color:rgb(123, 177, 209);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer { 
+    background-color: #3a4e66;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+th, td {
+    width: 200px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.photoTable {
+    width: 200px;
+}
+
+a {
+    color: rgb(0, 255, 191);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1100ff;
 }
