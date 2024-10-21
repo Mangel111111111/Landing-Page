@@ -1,6 +1,7 @@
 body{
     background-color: #4b80c1;
 }
+
 header {
     text-align: center;
     background-color:rgb(123, 177, 209);
@@ -8,6 +9,19 @@ header {
     top: 0;
     width: 100%;
     
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+
+.introduction {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
 footer { 
@@ -34,6 +48,9 @@ table {
 
 .photoTable {
     width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10%;
 }
 
 a {
@@ -44,3 +61,4 @@ a {
 a:hover {
     color: #1100ff;
 }
+
