@@ -26,7 +26,7 @@ footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     bottom: 0px;
     width: 100%;
-    position: absolute;
+
 }
 
 th, td {
@@ -67,9 +67,39 @@ main {
     flex-wrap: wrap;
     flex-direction: column;
 }
-.gridMiguel1{
-width: 400px;
+
+h3 {
+    text-align: center;
 }
-.grirdMiguel2{
-    width: 400px;
+
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.textGrid1 {
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+.textGrid2 {
+    grid-column: 3/6;
+    grid-row: 2;
+}
+
+.photoGrid1 {
+    grid-column: 4/6;
+    grid-row: 1;
+}
+
+.photoGrid2 {
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+img {
+    width: 100%;
 }
