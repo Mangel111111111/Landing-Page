@@ -4,14 +4,26 @@ body{
 }
 
 header {
-    text-align: center;
     background-color:rgb(123, 177, 209);
     font-family: 'Courier New', Courier, monospace;
     top: 0px;
     width: 100%;
     position: absolute;
+    display: flex;
+    justify-content: space-around;
 }
 
+#textTitle {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    font-size: 30px;
+}
+
+#imageTitle {
+    width: 70px;
+    margin-right: 40px;
+}
 
 
 .introduction {
@@ -56,7 +68,10 @@ a:hover {
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 250px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 .team {
@@ -67,7 +82,7 @@ main {
     flex-direction: column;
 }
 
-h3 {
+h2 {
     text-align: center;
 }
 img {
@@ -81,23 +96,36 @@ img {
     display: flex;
     justify-content: space-between;
 }
+
+.photoFlex1{
+    height: 250px;
+    width: 400px;
+    margin-right: 140px;
+}
+
+.photoFlex2{
+    height: 250px;
+    width: 400px;
+    margin-left: 140px;
+}
+
 .textFlex1{
     gap: 20px;
     width: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
-}
-.photoFlex{
-    height: 250px;
-    width: 350px;
-}
+    margin-left: 70px;
+    text-align: center;
+    font-size: 20px;}
+
 .textFlex2{
     gap: 20px;
     width: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
+    margin-right: 70px;
+    text-align: center;
+    font-size: 20px;
 }
