@@ -8,15 +8,18 @@
 ---
 
 ### Purpose
+
 The purpose of this project was to create a page working in PairProgramming Format
+
 ---
+
 ### Landing-Page ScreenShots
 
 #### Principal Page
 <img src= "img/screenshot/pic1.png">
 
 #### Miguel´s Page
-<img src= "img/screenshot/pic2.png">
+![image](https://github.com/user-attachments/assets/dfa2f81d-0f8f-45cb-9c8d-7b6d553d03bd)
 
 #### Santino´s Page Page
 <img src= "img/screenshot/pic3.png">
